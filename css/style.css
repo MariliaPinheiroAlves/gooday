@@ -1,0 +1,283 @@
+.inicio {
+    display: flex;
+    background-color: var(--background-impar);
+    min-height: 85vh;
+}
+
+.left-card {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    min-width: 50%;
+}
+
+.left-card img {
+    width: 300px;
+    height: 150px;
+}
+
+.left-card .descricao {
+    width: 70%;
+    text-align: end;
+    padding: 20px 0;
+    font-weight: 600;
+    font-size: 20px;
+    color: var(--color-padrao);
+}
+
+.right-card {
+    display: flex;
+    align-items: center;
+    min-width: 50%;
+}
+
+.right-card img {
+    width: 350px;
+    height: 400px;
+}
+
+.btn-inicio{
+    padding: 0 30px;
+    border-radius: 75px;
+    height: 56px;
+    background-color: var(--background-button);
+    color: var(--color-button);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.restaurantes {
+    grid-area: restaurante;
+    display: grid;
+    grid-template-areas: 
+    "chamada chamada chamada"
+    "segunda-imagem card-restaurante card-restaurante";
+    grid-template-columns: repeat(3, 1fr);
+    background-color: var(--background-par);
+    align-items: center;
+}
+
+.chamada-pagina-2 {
+    grid-area: chamada;
+    font-weight: bold;
+    color: var(--color-padrao);
+    padding: 30px 30px 0 30px;
+}
+
+.segunda-imagem {
+    grid-area: segunda-imagem;
+    padding-left: 50px;
+}
+
+.card-restaurante {
+    grid-area: card-restaurante;
+    display: flex;
+    gap: 5px;
+}
+
+.card-restaurante img {
+    border-radius: 15px;
+    width: 270px;
+    height: 370px;
+}
+
+.seta {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: none;
+    background-color: var(--background-button);
+    align-self: center;
+    cursor: pointer;
+}
+
+.seta img{
+    width: 50%;
+    height: 50%;
+}
+
+.grupos {
+    grid-area: grupos;
+    display: grid;
+    grid-template-areas: 
+    "titulo titulo titulo"
+    "card-grupos card-grupos terceira-imagem"
+    "card-grupos card-grupos terceira-imagem";
+    grid-template-columns: repeat(3, 1fr);
+    background-color: var(--background-impar);
+    align-items: center;
+    min-height: 89vh;
+}
+
+.chamada-pagina-3 {
+    grid-area: titulo;
+    text-align: end;
+    margin-right: 50px;
+    padding: 20px;
+}
+
+.chamada-pagina-3 p {
+    font-size: 28px;
+    font-weight: bold;
+    color: var(--color-padrao);
+}
+
+.card-grupos {
+    grid-area: card-grupos;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 5px;
+    margin: 0 0 50px 20px;
+}
+
+.card-grupos img {
+    border-radius: 15px;
+    width: 200px;
+    height: 230px;
+}
+
+.terceira-imagem {
+    grid-area: terceira-imagem;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.terceira-imagem img {
+    width: 380px;
+    height: 300px;
+    margin-right: 50px;
+}
+
+.seta-grupos {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: none;
+    background-color: var(--background-button);
+    cursor: pointer;
+    align-self: center;
+}
+
+.seta-grupos img{
+    width: 50%;
+    height: 50%;
+}
+
+.feed {
+    display: grid;
+    grid-template-areas: 
+    "titulo titulo titulo"
+    "quarta-imagem card-feed card-feed"
+    "quarta-imagem card-feed card-feed";
+    grid-template-columns: repeat(3, 1fr);
+    background-color: var(--background-par);
+    align-items: center;
+    min-height: 89vh;
+}
+
+.chamada-pagina-4 {
+    grid-area: titulo;
+    padding: 30px;
+}
+
+.quarta-imagem {
+    grid-area: quarta-imagem;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin-bottom: 50px;
+}
+
+.quarta-imagem img {
+    width: 400px;
+    height: 400px;
+}
+
+.card-feed {
+    grid-area: card-feed;
+    margin-bottom: 50px;
+}
+
+.card-feed img {
+    width: 400px;
+    height: 400px;
+}
+
+.fim {
+    display: flex;
+    background-color: var(--background-impar);
+    min-height: 80vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.fim-left-card {
+    align-self: flex-end;
+    margin-left: 90px;
+}
+
+.fim-left-card img {
+    width: 250px;
+    height: 400px;
+}
+
+.fim-middle-card {
+    text-align: center;
+}
+
+.fim-middle-card .logo {
+    width: 300px;
+    height: 150px;
+}
+
+.fim-middle-card p {
+    font-weight: 600;
+    font-size: 28px;
+    color: var(--color-padrao);
+}
+
+.fim-right-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 90px;
+    gap: 20px;
+}
+
+.fim-right-card p {
+    width: 80%;
+    font-weight: 600;
+    font-size: 24px;
+    color: var(--color-padrao);
+    text-align: center;
+}
+
+.fim-right-card img {
+    width: 150px;
+    margin-right: 20px;
+}
+
+.footer {
+    text-align: center;
+    background-color: var(--background-impar);
+}
+
+.footer p {
+    margin-bottom: 10px;
+    font-size: 12px;
+    color: var(--color-padrao);
+    font-weight: bold;
+}
+
+.footer img {
+    margin: 0 10px 30px 0;
+    width: 12px;
+    height: 12px;
+}
