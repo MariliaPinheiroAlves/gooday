@@ -21,4 +21,4 @@ As imagens utilizadas neste projeto foram obtidas das plataformas Unsplash e Pex
 ### Contribuição e Contato
 Se você deseja contribuir ou relatar problemas, sinta-se à vontade para entrar em contato através do meu Linkedin, que está disponível no rodapé da página.
 
-Nota: A imagem do projeto no Figma pode ser encontrada .
+Nota: A imagem do projeto no Figma pode ser encontrada aqui (https://github.com/MariliaPinheiroAlves/gooday/blob/main/final.jpg?raw=true).
