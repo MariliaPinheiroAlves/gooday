@@ -9,27 +9,11 @@ A landing page Gooday foi desenvolvida como parte de um projeto prático para de
 Design Responsivo: A landing page é totalmente responsiva e foi otimizada para visualização em dispositivos móveis e tablets, proporcionando uma experiência consistente em diferentes tamanhos de tela.
 
 ### Tecnologias Utilizadas
-HTML
-CSS
+- HTML
+- CSS
 
 ### Destaques do Código
 Um dos pontos de destaque deste projeto é a demonstração do conhecimento em layouts flexíveis e sistemas de grid. Tanto a flexbox quanto o sistema de grid foram utilizados para criar a estrutura responsiva da landing page.
-
-css
-Copy code
-/* Exemplo de uso do Flexbox */
-.container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-/* Exemplo de uso do Grid */
-.grid-container {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 20px;
-}
 
 ### Licença
 As imagens utilizadas neste projeto foram obtidas das plataformas Unsplash e Pexels, e as logos foram retiradas do Google.
@@ -37,4 +21,4 @@ As imagens utilizadas neste projeto foram obtidas das plataformas Unsplash e Pex
 ### Contribuição e Contato
 Se você deseja contribuir ou relatar problemas, sinta-se à vontade para entrar em contato através do meu Linkedin, que está disponível no rodapé da página.
 
-Nota: A imagem do projeto no Figma pode ser encontrada aqui.
+Nota: A imagem do projeto no Figma pode ser encontrada .
